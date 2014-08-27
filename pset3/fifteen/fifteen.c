@@ -292,7 +292,7 @@ bool won(void)
  
  void printDashes(int n)
  {
-    for (; n > 0; n--)
+    for (int i =0; i < n; i++)
     {
         printf("\033[22;34m-\033[0m");
     }

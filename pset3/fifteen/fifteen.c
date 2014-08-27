@@ -37,9 +37,6 @@ int d;
 // dashes to draw board
 int dashes;
 
-// COLORED GRID
-#define ANSI_COLOR_RED     "\x1b[31m"
-
 // prototypes
 void clear(void);
 void greet(void);
